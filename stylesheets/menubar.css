@@ -1,0 +1,20 @@
+
+.menubar div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 180px;
+    height: 16px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    flex: 0 1 auto;
+    align-self: center;
+}
