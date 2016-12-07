@@ -1,0 +1,43 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-width: 768px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body,
+body.landing {
+  background-color: #FAFAFA;
+}
+
+body.menubar,
+body.landing .menubar {
+  position: relative;;
+  top: 0;
+  left: 315px;
+  z-index: 1;
+  width: 100%;
+  min-width: 768px;
+}
+
+body.landing .menubar div {
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+body.landing .footer div {
+  background-color: none;
+}
