@@ -1,17 +1,23 @@
+body {
+  background-color: #FAFAFA;
+}
+
 body.landing {
 
   background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
     height: 3200px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
-body.landing * {
+body * {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
 .landingWraper {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +32,8 @@ body.landing * {
   display: none;
 }
 
+
+
 /*body.landing .menubar div {
 max-width: 1440px;
 margin: 10px auto;
@@ -35,9 +43,9 @@ margin: 10px auto;
 
 .mainSection {
   position: relative;
-  width: 1441px;
-  height: 800px;
-  margin-left: 0px;
+  width: 1440px;
+  height: 825px;
+  /*margin-left: 0px;*/
   overflow: hidden;
 
 
@@ -54,54 +62,71 @@ margin: 10px auto;
 }
 
 .mainSection p {
-  margin-top: 21px;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 21px;
-  line-height: 31px;
+  line-height: 36px;
+  margin-top: 25px;
+
+}
+
+
+.mainSection.left {
+  /*background-color: white;*/
+}
+/*.mainSection section {
+  position: absolute;
+    top: 120px;
+  width: 580px;
+
+}*/
+
+.mainSection.left section {
+  margin-top: 120px;
+  margin-left: 160px;
+  /*left: 160px;
+  top: 145px;*/
+}
+
+
+
+.mainSection.right section {
+  margin-top: 190;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 800px;
+ /*right: 61px;*/
+
+}
+
+
+.mainSection.right,
+.mainSection.center {
+color: white;
+background-color: rgba(135, 150, 150, 1);
 }
 
 .mainSection.center {
   text-align: center;
-  background-color: #FAFAFA;
+  margin: 0 80px;
 
 }
 
-.mainSection.center h2 {
+/*.mainSection.center h2 {
   font-size: 40px;
   line-height: 52px;
-}
+}*/
 
 .mainSection.center p {
   margin-top: 27px;
 }
 
 .mainSection.center section {
+  margin-top: 190px;
+  margin-left: 10px;
   top: 182px;
   width: 100%;
 }
 
-.mainSection section {
-  position: absolute;
-  top: 147px;
-  width: 580px;
-
-}
-
-.mainSection.left section {
-  left: 160px;
-  top: 84px;
-
-}
-
-.mainSection.right section {
-  right: 160px;
-  /*background-color: #879696;*/
-}
-
-
-.mainSection.right,
-.mainSection.center {
-background-color: rgba(135, 150, 150, 1);
-}
 
 .mainSection.center footer {
   position: absolute;
@@ -122,9 +147,9 @@ background-color: rgba(135, 150, 150, 1);
 
 
 #mockup1 {
-  margin: 164px 0px 0 750px;
+  margin: -250px 0px 0 750px;
   width: 530px;
-  height: 565px;
+  height: 566px;
   background-image: url(../images/about.png);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0,.1);
 }
@@ -139,12 +164,17 @@ background-color: rgba(135, 150, 150, 1);
 }
 
 #mockup3 {
-  margin: 270px 0px 0 630px;
-      width: 774px;
-      height: 410px;
+  margin: -116px 0px 0 629px;
+  width: 774px;
+  height: 406px;
       border-radius: 20px;
       background-image: url(../images/screens.png);
 
   }
 
+}
+
+.btn {
+  display: flex;
+  margin
 }

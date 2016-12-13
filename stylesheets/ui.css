@@ -1,0 +1,31 @@
+/*.btn {
+  background: #7DFEE1;
+  text-decoration: none;
+}*/
+.btn {
+  display: block;
+
+
+}
+
+.large {
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
+ width: 300px;
+ height: 50px;
+ line-height: 50px;
+color: #000000;
+font-size: 17px;
+background-color: : #7DFEE1;
+text-decoration: none;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
+
+.small {
+  font-family: 'PT Sans', sans-serif;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: white;
+}

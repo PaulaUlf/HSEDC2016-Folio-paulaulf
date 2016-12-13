@@ -2,18 +2,6 @@
 
 /* Lagre */
 
-h2 {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 56px;
-}
-
-p {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 21px;
-  line-height: 36px;
-}
 
 /* Small */
 
@@ -27,7 +15,7 @@ h2 {
 p {
   font-family: 'PT Sans', sans-serif;
   font-size: 21px;
-  line-height: 36px;
+  line-height: 31px;
 }
 
 body {
