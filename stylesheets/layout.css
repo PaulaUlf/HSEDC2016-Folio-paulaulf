@@ -15,7 +15,7 @@ a {
 
 body {
   min-width: 768px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 body,
@@ -27,7 +27,7 @@ body.menubar,
 body.landing .menubar {
   position: relative;;
   top: 0;
-  left: 315px;
+  left: 0px;
   z-index: 1;
   width: 100%;
   min-width: 768px;

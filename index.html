@@ -9,6 +9,8 @@
     <meta name="description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
     <meta name="keywords" content="html, css, javascript, hse, design">
 
+    <meta property="og:title" content="website">
+    <meta property="og:url" content="httpfolio">
     <meta property="og:title" content="Folio">
     <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
 
@@ -20,16 +22,16 @@
     <script src="javascripts/jquery-3.1.1.js"></script>
     <script src="javascripts/social-likes.min.js"></script>
   </head>
+
   <body class="landing">
 
     <nav class="menubar">
       <div>
-       <a class="logo" href=""></a>
+       <a class="logo" href="index.html"></a>
       </div>
     </nav>
 
   <section class="landingWrapper">
-
     <section class="mainSection left">
      <section>
       <h2>
@@ -44,7 +46,7 @@
        Hack Exchange.
       </p>
 
-      <figure></figure>
+      <div class="line">
      </section>
 
      <figure class="mockup" id="mockup1"></figure>
@@ -63,11 +65,15 @@
         дополнения остаются за вами.
       </p>
 
-      <figure></figure>
-    </section>
+      <div class="line">
+     </section>
 
-        <figure class="mockup" id="mockup2"></figure>
+      <figure class="mockup" id="mockup2"></figure>
     </section>
+    <figure class="mockup" id="mockup2_1"></figure>
+    <figure class="mockup" id="mockup2_2"></figure>
+    <figure class="mockup" id="mockup2_3"></figure>
+  </section>
 
 
   <section class="mainSection left">
@@ -83,8 +89,8 @@
         для телефизора и часов.
       </p>
 
-      <figure></figure>
-    </section>
+      <div class="line">
+     </section>
 
       <figure class="mockup" id="mockup3"></figure>
     </section>
@@ -103,17 +109,15 @@
       </p>
 
           <nav>
-
-            <a class="btn large green" href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
-            <a class="btn small white" href="">Исходный код на GitHub</a>
-
+            <a class="btn" href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
+            <a class="link" href="">Исходный код на GitHub</a>
           </nav>
     </section>
 
           <footer>
             <p>Пожалуйста, поделитесь знаниями с друзьями</p>
 
-            <div class="social-likes social-likes_single" data-url="http://wikimedium.hack.exchange" data-single-title="Поделиться">
+            <div class="social-likes social-likes_single" data-url="http://folio.hack.exchange" data-single-title="Share">
               <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
               <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
               <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
@@ -121,6 +125,6 @@
           </footer>
 
     </section>
-
+  </section>
   </body>
 </html>

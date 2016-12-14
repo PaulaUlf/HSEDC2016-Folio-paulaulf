@@ -15,7 +15,8 @@ h2 {
 p {
   font-family: 'PT Sans', sans-serif;
   font-size: 21px;
-  line-height: 31px;
+  line-height: 35px;
+  margin-top: 28px;
 }
 
 body {
