@@ -8,12 +8,23 @@ body {
 
 }
 
-a {
+a.link {
   text-decoration: none;
   color: inherit;
 }
 
+a.btn {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  display: flex;
+  width: 238px;
+  margin-left: 623px;
+  background-color: green;
+
+}
+
 body {
+  co
   min-width: 768px;
   font-family: 'PT Sans Caption', sans-serif;
 }
