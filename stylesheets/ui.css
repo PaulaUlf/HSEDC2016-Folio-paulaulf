@@ -2,7 +2,8 @@
   background: #7DFEE1;
   text-decoration: none;
 }*/
-.btn {
+/*.btn {
+text-align: center;
 display: block;
 font-family: 'PT Sans', sans-serif;
 font-weight: bold;
@@ -15,13 +16,35 @@ font-size: 17px;
 background-color: : #7DFEE1;
 text-decoration: none;
 box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
-}
+
+
+position: relative;;
+font-family: 'PT Sans Caption', sans-serif;
+color: black;
+display: flex;
+width: 300px;
+height: 50px;
+margin-top: 62px;
+margin-left: 569px;
+background-color: #77FFE1;
+}*/
+
+
 
 .btn:hover {
   background-color: #5fe5c2;
 }
 
 .link {
-  display: block;
+display: block;
 margin-top: 15px;
+}
+
+@media screen and (max-width: 1179px) {
+  .btn {
+    width: 214px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px
+  }
 }
