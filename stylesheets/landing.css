@@ -10,9 +10,6 @@ body {
 body.landing {
   font-family: 'PT Sans Caption', sans-serif;
   min-width: 768px;
-
-    /*height: 3200px;
-    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);*/
 }
 
 body.landing.bg {
@@ -283,11 +280,12 @@ nav.btn {
   .mainSection.center footer {
     bottom: -15px;
     padding-bottom: 35px;
-     }
+  }
 
-     .mainSection.center footer p {
-       font-size: 11px;
-     }
+  .mainSection.center footer p {
+     font-size: 11px;
+   }
+
   .line {
     height: 3px;
     width: 23px;
@@ -312,20 +310,19 @@ nav.btn {
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
   }
 
-  #mockup2_1
-   {
+  #mockup2_1 {
      top: -219px;
      left: 191px;
      width: 102px;
      height: 227px;
-   }
+  }
 
    #mockup2_2 {
      top: -219px;
      left: 316px;
      width: 100px;
      height: 283px;
-   }
+  }
 
    #mockup2_3 {
      top: -219px;
@@ -333,14 +330,13 @@ nav.btn {
      width: 100px;
      height: 338px;
 
-   }
+  }
 
   #mockup3 {
     top: 242px;
     left: 532px;
     width: 542px;
     height: 287px;
-    }
   }
 
 
@@ -356,11 +352,11 @@ nav.btn {
     }
 
     .compact {
-      display: none;
+      display: block;
     }
 
     .full {
-      display: block;
+      display: none;
     }
 
     .mainSection h2 {
