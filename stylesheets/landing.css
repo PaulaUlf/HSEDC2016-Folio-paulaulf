@@ -16,7 +16,6 @@ body.landing.bg {
   background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
-
 }
 
 body * {
@@ -80,11 +79,9 @@ body * {
   margin-top: 190px;
 }
 
-
 .mainSection.right section {
   margin-left: 800px;
   margin-top: 192px;
-
 }
 
 .line {
@@ -96,8 +93,12 @@ body * {
 
 .mainSection.right,
 .mainSection.center {
-color: white;
-background-color: #879696;
+  color: white;
+  background-color: #879696;
+}
+
+.mainSection.left {
+  background-color: white;
 }
 
 .mainSection.center {
@@ -122,7 +123,6 @@ background-color: #879696;
 .mainSection.center footer {
   position: absolute;
   bottom: 0px;
-
   width: 100%;
   padding-bottom: 30px;
 }
@@ -148,30 +148,30 @@ background-color: #879696;
 }
 
 #mockup2_1 {
-   top: -309px;
-   left: 160px;
-   width: 140px;
-   height: 317px;
-   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
-   background-image: url(../images/about.png);
+  top: -309px;
+  left: 160px;
+  width: 140px;
+  height: 317px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/about.png);
  }
 
  #mockup2_2 {
-   top: -309px;
-   left: 333px;
-   width: 140px;
-   height: 395px;
-   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
-   background-image: url(../images/works.png);
+  top: -309px;
+  left: 333px;
+  width: 140px;
+  height: 395px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/works.png);
  }
 
  #mockup2_3 {
-   top: -309px;
-   left: 506px;
-   width: 140px;
-   height: 475px;
-   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
-   background-image: url(../images/work.png);
+  top: -309px;
+  left: 506px;
+  width: 140px;
+  height: 475px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  background-image: url(../images/work.png);
  }
 
 #mockup3 {
@@ -192,7 +192,6 @@ nav.btn {
   text-align: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-
 }
 
 .link {
@@ -216,7 +215,6 @@ nav.btn {
   body.landing.bg {
     background-image: url(../images/mockups/1024.png);
   }
-
 
   .mainSection {
     width: 1179px;
@@ -281,8 +279,8 @@ nav.btn {
   }
 
   .mainSection.center footer p {
-     font-size: 11px;
-   }
+    font-size: 11px;
+  }
 
   .line {
     height: 3px;
@@ -290,14 +288,10 @@ nav.btn {
     background-color: #5fe5c2;
     margin-top: 45px;
   }
-  /*.mockup {
-    position: absolute;
-    background-size: cover;
-  }*/
+
   .mockup {
     position: absolute;;
     background-size: cover;
-
   }
 
   #mockup1 {
@@ -309,24 +303,24 @@ nav.btn {
   }
 
   #mockup2_1 {
-     top: -219px;
-     left: 191px;
-     width: 102px;
-     height: 227px;
+    top: -219px;
+    left: 191px;
+    width: 102px;
+    height: 227px;
   }
 
    #mockup2_2 {
-     top: -219px;
-     left: 316px;
-     width: 100px;
-     height: 283px;
+    top: -219px;
+    left: 316px;
+    width: 100px;
+    height: 283px;
   }
 
    #mockup2_3 {
-     top: -219px;
-     left: 438px;
-     width: 100px;
-     height: 338px;
+    top: -219px;
+    left: 438px;
+    width: 100px;
+    height: 338px;
 
   }
 
@@ -336,131 +330,128 @@ nav.btn {
     width: 542px;
     height: 287px;
   }
+}
 
+@media screen and (max-width: 839px) {
+  body.landing.bg {
+    background-image: url(../images/mockups/768.png);
+  }
 
+  .mainSection {
+    width: 839px;
+    height: 1024px;
+  }
 
-  @media screen and (max-width: 839px) {
-    body.landing.bg {
-      background-image: url(../images/mockups/768.png);
-    }
+  .compact {
+    display: block;
+  }
 
-    .mainSection {
-      width: 839px;
-      height: 1024px;
-    }
+  .full {
+    display: none;
+  }
 
-    .compact {
-      display: block;
-    }
+  .mainSection h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
 
-    .full {
-      display: none;
-    }
+  .mainSection p {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 26px;
+  }
 
-    .mainSection h2 {
-      font-size: 30px;
-      line-height: 38px;
+  .mainSection section {
+    top: 137px;
+    width: 410px;
+  }
 
-    }
+  .mainSection.left section {
+    margin-left: 150px;
+    margin-top: 140px;
+  }
 
-    .mainSection p {
-      margin-top: 18px;
-      font-size: 14px;
-      line-height: 26px;
-    }
+  .mainSection.right section {
+    margin-left: 348px;
+    margin-top: 137px;
+  }
 
-    .mainSection section {
-      top: 137px;
-      width: 410px;
-    }
+  .mainSection.center h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
 
-    .mainSection.left section {
-      margin-left: 150px;
-      margin-top: 140px;
-    }
+  .mainSection.center section {
+  margin-top: 190px;
+  }
 
-    .mainSection.right section {
-      margin-left: 348px;
-      margin-top: 137px;
-    }
+  .mainSection.center section nav {
+    margin-top: 124px;
+    height: 37px;
 
-    .mainSection.center h2 {
-      font-size: 30px;
-      line-height: 35px;
-    }
+  }
 
-    .mainSection.center section {
-    margin-top: 190px;
-    }
+  .mainSection.center section nav a {
+    margin: 0 6px;
+  }
 
-    .mainSection.center section nav {
-      margin-top: 124px;
-      height: 37px;
+  .mainSection.center footer {
+    bottom: -15px;
+    padding-bottom: 35px;
+  }
 
-    }
+ .mainSection.center footer p {
+   font-size: 11px;
+  }
 
-    .mainSection.center section nav a {
-      margin: 0 6px;
-    }
-    .mainSection.center footer {
-      bottom: -15px;
-      padding-bottom: 35px;
-       }
+  .line {
+    height: 3px;
+    width: 21px;
+    background-color: #5fe5c2;
+    margin-top: 44px;
+  }
 
-     .mainSection.center footer p {
-         font-size: 11px;
-       }
-    .line {
-      height: 3px;
-      width: 21px;
-      background-color: #5fe5c2;
-      margin-top: 44px;
-    }
+  .mockup {
+    position: absolute;;
+    background-size: cover;
+  }
 
-    .mockup {
-      position: absolute;;
-      background-size: cover;
+  #mockup1 {
+    top: 484px;
+    right: 147px;
+    width: 543px;
+    height: 557px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+  }
 
-    }
+  #mockup2_1 {
+    top: 100px;
+    left: 173px;
+    width: 141px;
+    height: 316px;
+  }
 
-    #mockup1 {
-      top: 484px;
-      right: 147px;
-      width: 543px;
-      height: 557px;
-      box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
-    }
+   #mockup2_2 {
+    top: 100px;
+    left: 347px;
+    width: 140px;
+    height: 396px;
+  }
 
-    #mockup2_1
-     {
-       top: 100px;
-       left: 173px;
-       width: 141px;
-       height: 316px;
-     }
+   #mockup2_3 {
+    top: 100px;
+    left: 520px;
+    width: 140px;
+    height: 474px;
+  }
 
-     #mockup2_2 {
-       top: 100px;
-       left: 347px;
-       width: 140px;
-       height: 396px;
-     }
-
-     #mockup2_3 {
-       top: 100px;
-       left: 520px;
-       width: 140px;
-       height: 474px;
-     }
-
-    #mockup3 {
-      top: 505px;
-      left: 157px;
-      width: 755px;
-      height: 403px;
-      }
-    }
-
+  #mockup3 {
+    top: 505px;
+    left: 157px;
+    width: 755px;
+    height: 403px;
+  }
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #mockup1 { background-image: url(../images/about@2x.png); }
@@ -468,5 +459,4 @@ nav.btn {
   #mockup2_1 { background-image: url(../images/works@2x.png); }
   #mockup2_1 { background-image: url(../images/work@2x.png); }
   #mockup3 { background-image: url(../images/screens@2x.png); }
-}
 }
